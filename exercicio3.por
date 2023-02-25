@@ -57,6 +57,8 @@ programa
 		escreva("Tipo de serviço: ")
 		leia(opcao)
 
+		limpa()
+
 		escreva("\n")
 		escreva("Selecione o tipo de estrutura, para a resolução: \n")
 		escreva("[1] Se Então \n")
@@ -64,6 +66,8 @@ programa
 
 		escreva("Tipo de estrutura: ")
 		leia(estrutura)
+
+		limpa()
 
 		se(estrutura == 1) {
 			escreva("\n")
@@ -83,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1331; 
+ * @POSICAO-CURSOR = 1796; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
